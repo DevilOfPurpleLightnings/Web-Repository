@@ -1,0 +1,75 @@
+#a1:link{
+   color:orange;
+}
+
+#a2:link{
+  color:darkblue;
+}
+
+#a3:link{
+  color:aqua;
+}
+
+#a4:link{
+  color:darkgreen;
+}
+
+#a1:visited{
+  color:red;
+}
+
+#a2:visited{
+  color:blue;
+}
+
+#a3:visited{
+  color:#b8860b;
+}
+
+#a4:visited{
+  color:green;  
+}
+
+h1{
+  text-align: center;
+  font-size: 24px;
+}
+
+p{
+  font-size: 120%;
+}
+.row {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 25.00%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .col-md-6 {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+.item {
+  float: left;
+  position: relative;
+}
+
+.item-wrap {
+  position: relative;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 12px;
+  text-align: center;
+}
