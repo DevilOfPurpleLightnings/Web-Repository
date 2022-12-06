@@ -1,0 +1,61 @@
+.block1{
+	background: #85bb65;
+
+}
+.block1 h3{
+	background: purple;
+	/*position: absolute;*/
+	color: white;
+ 	border: 1px solid black;
+ 	border-radius: 12px;
+ 	text-align: center;
+ 	font-size: calc(16px + 20%);
+}
+.block1 p{
+	font-size: 16px;
+}
+.block2{
+	background: #87CEEB;
+}
+.block2 h3{
+	background: #2B6CC4;
+	position: relative;
+	color: white;
+ 	border: 1px solid black;
+ 	border-radius: 12px;
+ 	text-align: center;
+ 	font-size: calc(16px + 20%);
+}
+.block2 li{
+	font-size: 16px;
+}
+.block3{
+	background: #E8793E;
+}
+.block3 h3{
+	background: #E1CC4F;
+	position: relative;
+ 	border: 1px solid black;
+ 	border-radius: 12px;
+ 	text-align: center;
+ 	font-size: 16px;
+ 	font-size: calc(16px + 20%);
+}
+.block3 table th,tr,td{
+	font-size: 16px;
+}
+.block4{
+	background: #90EE90;
+}
+.block4 h3{
+	background: #386646;
+	position: relative;
+ 	border: 1px solid black;
+ 	color: white;
+ 	border-radius: 12px;
+ 	text-align: center;
+ 	font-size: calc(16px + 20%);
+}
+h1,h2,h3{
+    font-family: "Roboto rev=1";
+}
