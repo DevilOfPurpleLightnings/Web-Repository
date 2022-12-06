@@ -3,23 +3,32 @@
 
 }
 .block1 h3{
+	font-family: 'Open Sans', sans-serif;
 	background: purple;
-	/*position: absolute;*/
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
 	color: white;
  	border: 1px solid black;
  	border-radius: 12px;
  	text-align: center;
  	font-size: calc(16px + 20%);
 }
-.block1 p{
+.block1 p{	
 	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
 }
 .block2{
 	background: #87CEEB;
 }
 .block2 h3{
+	font-family: 'Open Sans', sans-serif;
 	background: #2B6CC4;
-	position: relative;
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
 	color: white;
  	border: 1px solid black;
  	border-radius: 12px;
@@ -28,13 +37,18 @@
 }
 .block2 li{
 	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
 }
 .block3{
 	background: #E8793E;
 }
 .block3 h3{
+	font-family: 'Open Sans', sans-serif;
 	background: #E1CC4F;
-	position: relative;
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
  	border: 1px solid black;
  	border-radius: 12px;
  	text-align: center;
@@ -43,13 +57,18 @@
 }
 .block3 table th,tr,td{
 	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
 }
 .block4{
 	background: #90EE90;
 }
 .block4 h3{
+	font-family: 'Open Sans', sans-serif;
 	background: #386646;
-	position: relative;
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
  	border: 1px solid black;
  	color: white;
  	border-radius: 12px;
@@ -57,5 +76,57 @@
  	font-size: calc(16px + 20%);
 }
 h1,h2,h3{
-    font-family: "Roboto rev=1";
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media (min-width: 1200px) {
+	.row {
+        flex-wrap: wrap;
+    }
+	.col-xl-4 {
+    	width: 25%;
+  	}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	.row {
+        flex-wrap: wrap;
+    }
+	.col-lg-4 {
+	width: 33%;
+	}
+
+	.col-lg-6 {
+	width: 100%;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .col-md-8 {
+   	width: 50%;
+  }
+}
+@media (max-width: 768px) {
+	.row{
+		flex-direction: column;
+
+	}
+  .col-sm-12 {
+    width: 100%;
+  }
+
+}
+.row {
+    width: 100%;
+    float: none;
+}
+.row div {
+    display: flex;
+    align-items: stretch;
+}
+.item {
+  	float: left;
+    position: relative;
+}
+
+.item-wrap p, ul,img, table{
+	margin: 20px 20px 50px 00px;
 }
